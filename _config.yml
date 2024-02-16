@@ -1,12 +1,12 @@
 # Site settings
-title: NADYR
+title: LoganMakesGames
 email:  
 description: > # keep this and put description below
-  Programmer and Designer
+  
 url: "https://loganmakesgames.github.io" # the base hostname & protocol for your site
-linkedin_url: "https://www.linkedin.com/in/gamingportfolio"
-github_username: gamingportfolio
-twitter_username: gamingportfolio
+linkedin_url: 
+github_username: 
+twitter_username: 
 footer_text: "This site uses <a href='https://github.com/gamingportfolio/urban-theme-portfolio'>urban-theme (portfolio)</a>."
 
 # Build settings
