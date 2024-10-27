@@ -3,7 +3,7 @@
     color: #980709; /* dark red */
     border-right: solid;
     height: 100%;
-    width: 200px;
+    width: 15%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -26,6 +26,14 @@
     border: solid;
     color: white;
     background: #234135; /* dark green */
+}
+
+.sidebar a:link {
+    color: #980709; /* dark red */
+}
+
+.sidebar a:visited {
+    color: #a1ada5; /* pale green */
 }
 
 body {
