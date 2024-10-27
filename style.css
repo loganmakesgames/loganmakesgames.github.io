@@ -88,12 +88,42 @@ body {
     padding: 1%;
 }
 
+.projects-left {
+    display: flex;
+    align-items: center;
+}
+
 .projects-left p {
     width: 100%;
     background-color: white;
     color: black;
     text-align: left;
-    border-style: dashed;
+    border-style: double;
+}
+
+.pleft-text {
+    float: left;
+    width: 50%;
+}
+
+.pleft-images {
+    padding-left: 5%;
+    float: right;
+    max-width: 50%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    object-fit: contain;
+}
+
+
+
+.pleft-images img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    object-fit: contain;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
@@ -103,20 +133,40 @@ body {
     clear: both;
 }
 
-.pleft-text {
-    float: left;
+.projects-right {
+    display: flex;
+    align-items: center;
+}
+
+.projects-right p {
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: left;
+    border-style: double;
+}
+
+
+.projects-right:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pright-text {
+    float: right;
     width: 50%;
 }
 
-.pleft-images {
-    float: right;
+.pright-images {
+    float: left;
     max-width: 50%;
     height: auto;
     width: auto\9; /* ie8 */
     object-fit: contain;
 }
 
-.pleft-images img {
+.pright-images img {
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
