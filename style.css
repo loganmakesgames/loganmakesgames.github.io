@@ -16,8 +16,9 @@
 }
 
 .sidebar img {
-    height: 200px;
-    width: 200px;
+    height: auto;
+    width: auto;
+    object-fit: contain;
     margin-left: auto;
     margin-right: auto;
 }
