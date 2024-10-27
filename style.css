@@ -45,7 +45,7 @@ body {
     -ms-interpolation-mode: nearest-neighbor;   /* IE (non-standard property) */
 }
 
-h1 {
+.main h1 {
     text-align: center;
     vertical-align: middle;
     color: white;
@@ -57,22 +57,23 @@ h1 {
     margin-right: 20%;
 }
 
-h2 {
+.main h2 {
     background-color: #bdbcbb; /* light gray */
     margin-top: -20px;
     margin-left: 25%;
     margin-right: 25%;
 }
 
-h3 {
+.main h3 {
     color: white;
     background-color: #980709; /* dark red */
 }
 
-p {
-    border-style: dashed;
+.main p {
+    border-style: solid;
     color: white;
     background-color: #980709; /* dark red */
+    text-align: left;
 }
 
 
