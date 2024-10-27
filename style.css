@@ -21,7 +21,8 @@
 }
 
 .sidebar p {
-    background: pink
+    color: white;
+    background: #234135; /* dark green */
 }
 
 body {
@@ -43,12 +44,34 @@ body {
 
 h1 {
     text-align: center;
-    background-color: blueviolet;
+    vertical-align: middle;
+    color: white;
+    background-color: #234135; /* dark green */
     font-size: 4rem;
-    padding-top: 10rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h2 {
+    background-color: #bdbcbb; /* light gray */
+    margin-top: -20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h3 {
+    background-color: #bdbcbb; /* light gray */
 }
 
 p {
     text-align: center;
-    background-color: darkred;
+    color: white;
+    background-color: #980709; /* dark red */
+}
+
+
+.guestbook {
+
 }
