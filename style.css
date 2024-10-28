@@ -61,11 +61,11 @@ body {
     vertical-align: middle;
     color: white;
     background-color: #234135; /* dark green */
-    font-size: 4vw;
+    font-size: 5vw;
     padding-top: .5rem;
     padding-bottom: .5rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
 .intro h2 {
