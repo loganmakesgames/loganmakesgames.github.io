@@ -89,6 +89,14 @@ body {
     background-color: #980709; /* dark red */
 }
 
+.intro a:link {
+    color: #980709; /* dark red */
+}
+
+.intro a:visited {
+    color: #a1ada5; /* pale green */
+}
+
 .intro p {
     border-style: solid;
     color: white;
