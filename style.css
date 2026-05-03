@@ -192,6 +192,14 @@ body {
     margin-right: 10px;
 }
 
-.guestbook {
+.guestbook a:link {
 
+}
+
+.guestbook a:link {
+    color: white;
+}
+
+.guestbook a:visited {
+    color: #a1ada5; /* pale green */
 }
