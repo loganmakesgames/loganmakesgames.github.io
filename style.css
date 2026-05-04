@@ -192,10 +192,10 @@ body {
     margin-right: 10px;
 }
 
-.guestbook a:link {
+.footer a:link {
     color: white;
 }
 
-.guestbook a:visited {
+.footer a:visited {
     color: #a1ada5; /* pale green */
 }
